@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nissaba"
+version = "0.2.0"
+description = "A utiltiy for managing test results"
+authors = ["Samuel Broster <s.h.broster+pypi@pm.me>"]
+homepage = "https://github.com/shbroster/nissaba"
+repository = "https://github.com/shbroster/nissaba"
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
